@@ -17,7 +17,7 @@ const carregarMetas = async () => {
 }
 
 const salvarMetas = async () => {
-    await fs.writeFile("metas.json", JSON.stringify(meta, null, 2))
+    await fs.writeFile("metas.json", JSON.stringify(metas, null, 2))
 }
 
 const cadastrarMeta = async () => {
